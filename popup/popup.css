@@ -1,0 +1,34 @@
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: rgb(95, 99, 104);
+        color: white;
+    }
+
+    button {
+        border: 4px solid white;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: white;
+        color: black;
+    }
+
+    button {
+        border: 4px solid rgb(95, 99, 104);
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    height: 30px;
+    width: 30px;
+    outline: none;
+    margin: 10px;
+    border-radius: 2px;
+}
