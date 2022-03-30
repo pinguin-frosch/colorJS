@@ -2,6 +2,7 @@
 <html>
   <head>
     <link rel="stylesheet" href="options.css" />
+    <!-- Fuente Poppins -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -10,10 +11,38 @@
     />
   </head>
   <body>
-    <h1>Opciones de la extension.</h1>
+    <h1>Options.</h1>
+
     <div id="colorsDiv">
       <!-- Aquí se añaden los colores -->
     </div>
+
+    <div id="editColorsDiv">
+      <button>Edit</button>
+      <button>Edit</button>
+      <button>Edit</button>
+      <button>Edit</button>
+      <button>Edit</button>
+      <button>Edit</button>
+      <button>Edit</button>
+      <button>Edit</button>
+      <button>Edit</button>
+      <button>Edit</button>
+      <button>Edit</button>
+      <button>Edit</button>
+    </div>
+
+    <!-- Modal para editar color -->
+    <dialog id="modal">
+      <form id="modalForm" method="dialog">
+        <span>Ingresa un nuevo color: </span>
+        <input type="text" name="color" placeholder="#abcdef" />
+      </form>
+    </dialog>
+
+    <!-- Restablecer colores -->
+    <button id="resetColors">Reset colors</button>
+
   </body>
   <script src="options.js"></script>
 </html>
